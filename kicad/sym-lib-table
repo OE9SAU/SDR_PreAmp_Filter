@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "pico")(type "KiCad")(uri "${KIPRJMOD}/pico.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA_OE9SAU1")(type "KiCad")(uri "${KIPRJMOD}/lib/60312202114508/60312202114508.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA_OE9SAU2")(type "KiCad")(uri "${KIPRJMOD}/lib/60314202124525/60314202124525.kicad_sym")(options "")(descr ""))
 )
