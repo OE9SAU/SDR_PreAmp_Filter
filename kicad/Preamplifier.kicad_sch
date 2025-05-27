@@ -669,6 +669,285 @@
 				)
 			)
 		)
+		(symbol "UA2-5NU:UA2-5NU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "UA2-5NU"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "UA245NJ"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "KEMET, UA2, Relays, Signal, 5 V, 220 V, 250 VAC, 1 A, 100 mOhms, 1 GOhms, 10.6mm, 5.7mm, 8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UA2-5NU"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-UA2-5NU"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/UA2-5NU?qs=Mg2Do3ryY8thjS4jUuWNRA%3D%3D"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "UA2-5NU"
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ua2-5nu/kemet-corporation?utm_currency=USD&region=nac"
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "UA2-5NU_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COIL_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "COIL_-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -968,6 +1247,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 132.08) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340b052f-d70d-4558-9e92-80ba4670cabc")
+	)
+	(wire
+		(pts
 			(xy 168.91 80.01) (xy 177.8 80.01)
 		)
 		(stroke
@@ -978,13 +1267,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 195.58 99.06)
+			(xy 123.19 137.16) (xy 123.19 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e157aae-94ad-4a2d-b882-3a33affaad5d")
+		(uuid "43670491-e97a-4b08-a44c-b8dc4d8f3d0b")
 	)
 	(wire
 		(pts
@@ -1028,6 +1317,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 132.08) (xy 123.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8383e7-7a53-4f89-ae57-2e8a5a2aa311")
+	)
+	(wire
+		(pts
 			(xy 190.5 99.06) (xy 190.5 74.93)
 		)
 		(stroke
@@ -1055,6 +1354,26 @@
 			(type default)
 		)
 		(uuid "57063c63-c286-40f6-a025-ef244fd6e98b")
+	)
+	(wire
+		(pts
+			(xy 123.19 143.51) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7051a172-8283-4398-9bcb-f414356da022")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 85.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75537cd5-7ea0-4577-8b2b-ab44a834b3ef")
 	)
 	(wire
 		(pts
@@ -1148,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 101.6 109.22)
+			(xy 67.31 139.7) (xy 67.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 101.6) (xy 107.95 101.6)
+			(xy 85.09 101.6) (xy 107.95 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1487,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 105.41) (xy 52.07 107.95)
+			(xy 156.21 132.08) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3874d0-2d84-4cb5-89b8-6a5455c24d45")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 31.75 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1208,13 +1537,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 52.07 97.79)
+			(xy 31.75 93.98) (xy 31.75 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afc4693e-ee69-4436-afd6-fbcc48776e70")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ea9ec2-8619-4283-bd0c-f23a74193d17")
 	)
 	(wire
 		(pts
@@ -1225,6 +1564,26 @@
 			(type default)
 		)
 		(uuid "b6fa429d-a4cc-481d-9f5b-d1d04d681092")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a6bcdd-1e6a-4d50-a156-a0816ea4ffed")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b9f549-c7a8-4be6-8e46-85bf0c5a294d")
 	)
 	(wire
 		(pts
@@ -1405,7 +1764,7 @@
 	)
 	(global_label "RF_PREAMP"
 		(shape output)
-		(at 195.58 99.06 0)
+		(at 203.2 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1415,7 +1774,7 @@
 		)
 		(uuid "45203a64-5e8a-46bb-9ca1-a01089ce7024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3904 99.06 0)
+			(at 217.0104 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,13 +1849,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "C5")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1565,13 +1920,167 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR033")
 					(unit 1)
 				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "#PWR033")
+			)
+		)
+	)
+	(symbol
+		(lib_id "UA2-5NU:UA2-5NU")
+		(at 123.19 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c37d58-4e90-4126-acb1-75cfec0313d1")
+		(property "Reference" "K1"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UA2-5NU"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UA245NJ"
+			(at 152.4 224.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf"
+			(at 152.4 324.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "KEMET, UA2, Relays, Signal, 5 V, 220 V, 250 VAC, 1 A, 100 mOhms, 1 GOhms, 10.6mm, 5.7mm, 8mm"
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 152.4 524.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 152.4 624.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UA2-5NU"
+			(at 152.4 724.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-UA2-5NU"
+			(at 152.4 824.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/UA2-5NU?qs=Mg2Do3ryY8thjS4jUuWNRA%3D%3D"
+			(at 152.4 924.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "UA2-5NU"
+			(at 152.4 1024.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ua2-5nu/kemet-corporation?utm_currency=USD&region=nac"
+			(at 152.4 1124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4349c3d2-43b8-446d-b347-8ad35a996c29")
+		)
+		(pin "5"
+			(uuid "5e194f4a-aa93-402b-a5f3-d1a125f13467")
+		)
+		(pin "7"
+			(uuid "9d5a928a-14df-4292-b641-76f0025cc290")
+		)
+		(pin "4"
+			(uuid "55dd4b23-ddf9-4bbf-bd87-19288f828696")
+		)
+		(pin "1"
+			(uuid "eb30786d-b892-4dab-985e-5e4d1064c061")
+		)
+		(pin "6"
+			(uuid "ca5aa78a-6c6f-4055-9851-94aa7b7bd06b")
+		)
+		(pin "2"
+			(uuid "1d19eb64-592d-42f7-97cd-df4ee7cb7a47")
+		)
+		(pin "3"
+			(uuid "60720f82-3cad-4cd5-b434-2c629a4a33bf")
+		)
+		(instances
+			(project "SDR_PreAmp_Filter"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1656,7 +2165,7 @@
 			(uuid "6a7e2319-287c-4abc-b437-fe759f4f9865")
 		)
 		(instances
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "U6")
 					(unit 1)
@@ -1731,13 +2240,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "R12")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1745,7 +2250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 109.22 0)
+		(at 67.31 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +2258,7 @@
 		(dnp no)
 		(uuid "4d0f515a-c3a4-47a7-8fee-c8468e8a0e60")
 		(property "Reference" "#PWR?"
-			(at 101.6 115.57 0)
+			(at 67.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.727 113.6142 0)
+			(at 67.437 146.6342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +2275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 109.22 0)
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +2284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 109.22 0)
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +2293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 109.22 0)
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,13 +2311,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1881,13 +2382,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1895,7 +2392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 107.95 0)
+		(at 31.75 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1903,7 +2400,7 @@
 		(dnp no)
 		(uuid "57e6c537-2b06-4b33-bcfd-cbcba5bc8dde")
 		(property "Reference" "#PWR?"
-			(at 52.07 114.3 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +2409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.197 112.3442 0)
+			(at 31.877 112.3442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 107.95 0)
+			(at 31.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +2426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 107.95 0)
+			(at 31.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +2435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 107.95 0)
+			(at 31.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2453,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR043")
 					(unit 1)
@@ -2031,12 +2528,8 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2045,7 +2538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 101.6 0)
+		(at 31.75 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,7 +2546,7 @@
 		(dnp no)
 		(uuid "64b660c4-afcf-49d4-b112-c4456a0cb900")
 		(property "Reference" "C?"
-			(at 54.991 100.457 0)
+			(at 34.671 100.457 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2555,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 54.991 102.743 0)
+			(at 34.671 102.743 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 53.0352 105.41 0)
+			(at 32.7152 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 101.6 0)
+			(at 31.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 101.6 0)
+			(at 31.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2603,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "C10")
 					(unit 1)
@@ -2185,12 +2678,8 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "R10")
 					(unit 1)
 				)
@@ -2264,7 +2753,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "C17")
 					(unit 1)
@@ -2274,7 +2763,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 93.98 0)
+		(at 31.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2282,7 +2771,7 @@
 		(dnp no)
 		(uuid "8bf4696a-8a3e-49ab-9123-fb1d66c86971")
 		(property "Reference" "#PWR?"
-			(at 52.07 97.79 0)
+			(at 31.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2780,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.451 89.5858 0)
+			(at 32.131 89.5858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 93.98 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 93.98 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 93.98 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2824,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR035")
 					(unit 1)
@@ -2409,12 +2898,8 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
-					(reference "C1")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C1")
 					(unit 1)
 				)
@@ -2488,13 +2973,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "R11")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2563,13 +3044,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2642,13 +3119,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "R1")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2717,13 +3190,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2731,7 +3200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 101.6 101.6 0)
+		(at 67.31 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2740,7 +3209,7 @@
 		(dnp no)
 		(uuid "d004d83f-66de-40ae-84c1-dba204bdd8ab")
 		(property "Reference" "J5"
-			(at 97.79 100.6232 0)
+			(at 63.5 133.6432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3218,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 97.79 103.1632 0)
+			(at 63.5 136.1832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +3227,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
-			(at 101.6 101.6 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 101.6 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +3245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 101.6 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,12 +3260,8 @@
 			(uuid "6e7a6ff1-0518-4fda-9fc4-7b367d0b2388")
 		)
 		(instances
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
-					(reference "J5")
-					(unit 1)
-				)
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "J5")
 					(unit 1)
 				)

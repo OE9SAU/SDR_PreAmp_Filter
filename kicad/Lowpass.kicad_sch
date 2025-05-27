@@ -385,6 +385,173 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -672,290 +839,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SMA_OE9SAU2:60314202124525"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "60314202124525"
-				(at 0 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "60314202124525:60314202124525"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            SMA Connector Plug, Male Pin 50 Ohms Board Edge, End Launch Solder\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/60314202124525/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "60314202124525"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/60314202124525/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "60314202124525_0_0"
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 0.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3197,7 +3080,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR011")
 					(unit 1)
@@ -3272,7 +3155,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L8")
 					(unit 1)
@@ -3343,7 +3226,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR03")
 					(unit 1)
@@ -3418,7 +3301,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C36")
 					(unit 1)
@@ -3493,7 +3376,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L2")
 					(unit 1)
@@ -3564,7 +3447,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR032")
 					(unit 1)
@@ -3635,7 +3518,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR013")
 					(unit 1)
@@ -3710,7 +3593,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C38")
 					(unit 1)
@@ -3785,7 +3668,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C16")
 					(unit 1)
@@ -3860,9 +3743,79 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 125.73 116.84 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ccfbf6f-834e-4535-ab27-fc24676965b8")
+		(property "Reference" "J1"
+			(at 129.54 117.8168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 129.54 115.2768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef0e629-6ef4-40e7-9548-cb6b76ff1319")
+		)
+		(pin "2"
+			(uuid "da196b0b-a70f-42db-a9cd-6963a87386b7")
+		)
+		(instances
+			(project "SDR_PreAmp_Filter"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3935,7 +3888,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L9")
 					(unit 1)
@@ -4010,7 +3963,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L6")
 					(unit 1)
@@ -4085,7 +4038,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L3")
 					(unit 1)
@@ -4156,7 +4109,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR09")
 					(unit 1)
@@ -4227,169 +4180,9 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMA_OE9SAU2:60314202124525")
-		(at 128.27 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7de47b03-6743-4327-8cff-61bfda0e0c83")
-		(property "Reference" "J2"
-			(at 132.08 114.2864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LNA_OUT"
-			(at 132.08 116.8264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "60314202124525:60314202124525"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            SMA Connector Plug, Male Pin 50 Ohms Board Edge, End Launch Solder\n                        \n"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/60314202124525/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "60314202124525"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/60314202124525/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "90e00c5b-f479-4be4-b96a-fb9fa37ab388")
-		)
-		(pin "1"
-			(uuid "46ac5295-d6ec-42f7-9925-19585b0e24d5")
-		)
-		(pin "5"
-			(uuid "86379a17-7624-42d2-842f-671d34201452")
-		)
-		(pin "4"
-			(uuid "29183e99-bd54-49d4-a116-8264683e6643")
-		)
-		(pin "2"
-			(uuid "42f3dc21-92f1-4440-9218-c57a89c65929")
-		)
-		(instances
-			(project ""
-				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4462,7 +4255,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C22")
 					(unit 1)
@@ -4537,7 +4330,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L13")
 					(unit 1)
@@ -4608,7 +4401,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR05")
 					(unit 1)
@@ -4683,7 +4476,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L7")
 					(unit 1)
@@ -4754,7 +4547,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR04")
 					(unit 1)
@@ -4829,7 +4622,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C7")
 					(unit 1)
@@ -4904,7 +4697,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C15")
 					(unit 1)
@@ -4979,7 +4772,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C37")
 					(unit 1)
@@ -5054,7 +4847,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C3")
 					(unit 1)
@@ -5129,7 +4922,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C21")
 					(unit 1)
@@ -5200,7 +4993,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR015")
 					(unit 1)
@@ -5275,7 +5068,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L1")
 					(unit 1)
@@ -5350,7 +5143,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C13")
 					(unit 1)
@@ -5421,7 +5214,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR012")
 					(unit 1)
@@ -5496,7 +5289,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L4")
 					(unit 1)
@@ -5571,7 +5364,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C19")
 					(unit 1)
@@ -5646,7 +5439,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C8")
 					(unit 1)
@@ -5717,7 +5510,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR02")
 					(unit 1)
@@ -5792,7 +5585,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C6")
 					(unit 1)
@@ -5907,7 +5700,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "U2")
 					(unit 1)
@@ -5978,7 +5771,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR06")
 					(unit 1)
@@ -6053,7 +5846,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C12")
 					(unit 1)
@@ -6128,7 +5921,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "L5")
 					(unit 1)
@@ -6199,7 +5992,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR014")
 					(unit 1)
@@ -6274,7 +6067,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C2")
 					(unit 1)
@@ -6349,7 +6142,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "C9")
 					(unit 1)
@@ -6464,7 +6257,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "U1")
 					(unit 1)
@@ -6535,7 +6328,7 @@
 					(unit 1)
 				)
 			)
-			(project "pico_rx"
+			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/b8fbcf71-8210-4060-b465-236d1aa4e7b3"
 					(reference "#PWR010")
 					(unit 1)
