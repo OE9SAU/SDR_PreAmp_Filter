@@ -1581,6 +1581,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 102.235) (xy 52.07 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257df23b-4320-4997-a9d8-e44c38e9b539")
+	)
+	(wire
+		(pts
 			(xy 190.5 132.08) (xy 190.5 99.06)
 		)
 		(stroke
@@ -1708,6 +1718,16 @@
 			(type default)
 		)
 		(uuid "5cbdbb31-6968-4a50-91cd-c3a7e08b4b25")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.885) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c94e424-bb81-45c4-bca3-47f887393fd6")
 	)
 	(wire
 		(pts
@@ -2041,6 +2061,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 102.235) (xy 52.07 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d715b77d-75b6-40cf-8b96-88f49ef7f144")
+	)
+	(wire
+		(pts
 			(xy 161.29 69.85) (xy 151.13 69.85)
 		)
 		(stroke
@@ -2118,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "efe81f20-1da6-4ee3-a55f-a29b1a13ce67")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 46.99 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f635bd1c-e47e-4e71-8289-feb56d1f897c")
 	)
 	(wire
 		(pts
@@ -2717,6 +2757,71 @@
 			(project "SDR_PreAmp_Filter"
 				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.99 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e780009-ce2a-4019-928d-1c870d6f6285")
+		(property "Reference" "#PWR022"
+			(at 46.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 47.371 88.3158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2d13c4f-7d09-4b96-8849-bb0e30ffaf4e")
+		)
+		(instances
+			(project "SDR_PreAmp_Filter"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3813,6 +3918,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 54.61 90.805 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7341432-7ab8-465b-b842-b99701090f82")
+		(property "Reference" "J3"
+			(at 55.88 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 55.88 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 54.61 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 54.61 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b993a81-9ef6-4aad-98a8-3f43b92bb3d3")
+		)
+		(pin "2"
+			(uuid "211bda85-e4e9-4e10-b8f1-49e0e4ff7e3c")
+		)
+		(instances
+			(project "SDR_PreAmp_Filter"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca476f5-b56e-49be-be1e-f39518addaef")
+		(property "Reference" "#PWR020"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.737 112.3442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5912476-ca43-494b-a3bb-248676c0965d")
+		)
+		(instances
+			(project "SDR_PreAmp_Filter"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f/922c32e5-68dc-43db-b1ed-78e4b25ea173"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 67.31 134.62 0)
 		(mirror y)
@@ -3908,7 +4148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 139.7 121.92 0)
 			(effects
 				(font
