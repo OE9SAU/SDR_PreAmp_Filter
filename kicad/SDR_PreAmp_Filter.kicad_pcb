@@ -2534,7 +2534,7 @@
 			(uuid "7c52a483-79a1-4c26-bb68-eaa2b55fe905")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "9b962885-e4c5-47af-89bb-67f7132ad936")
 			(effects
@@ -3759,7 +3759,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "56c702c4-779b-48b8-bc3f-ab9a373b30dc")
-		(at 94.4 139.3)
+		(at 142.55 139.3)
 		(property "Reference" "G0"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -12249,7 +12249,7 @@
 		)
 	)
 	(gr_text "SDR-PREAMP &\n5Band LPF 0-30Mhz\nOE9SAU V1.0 05/2025"
-		(at 107 141.732 0)
+		(at 104.175 142.275 0)
 		(layer "F.SilkS")
 		(uuid "9772f115-1281-4fdc-938f-fc39256ddec8")
 		(effects
