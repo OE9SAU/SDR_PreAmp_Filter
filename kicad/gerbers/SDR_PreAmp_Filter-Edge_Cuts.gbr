@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*
+G04 #@! TF.CreationDate,2025-06-10T09:40:11+02:00*
+G04 #@! TF.ProjectId,SDR_PreAmp_Filter,5344525f-5072-4654-916d-705f46696c74,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2025-06-10 09:40:11*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X89941400Y-115697000D02*
+X149352000Y-115697000D01*
+X149352000Y-143117000D01*
+X89941400Y-143117000D01*
+X89941400Y-115697000D01*
+M02*
