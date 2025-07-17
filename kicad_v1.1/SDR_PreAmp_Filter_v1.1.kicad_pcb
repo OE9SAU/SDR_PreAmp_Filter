@@ -12480,8 +12480,8 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "LNA ON"
-		(at 95.325 122.875 90)
+	(gr_text "LNA OFF"
+		(at 95.325 123.19 90)
 		(layer "F.SilkS")
 		(uuid "96b4dd35-ab46-453b-b4b3-0a21b07eece4")
 		(effects
