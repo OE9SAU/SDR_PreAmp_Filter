@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b6f73a49-ac1f-4895-a0f9-8f6954ee587f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 92.71 66.675)
+		(size 46.99 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "922c32e5-68dc-43db-b1ed-78e4b25ea173")
+		(property "Sheetname" "Preamplifier"
+			(at 92.71 65.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Preamplifier.kicad_sch"
+			(at 92.71 120.5996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SDR_PreAmp_Filter_v1.1"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 66.675)
+		(size 48.26 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8fbcf71-8210-4060-b465-236d1aa4e7b3")
+		(property "Sheetname" "Lowpass Filters"
+			(at 144.78 65.9634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lowpass.kicad_sch"
+			(at 144.78 119.3296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SDR_PreAmp_Filter_v1.1"
+				(path "/b6f73a49-ac1f-4895-a0f9-8f6954ee587f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
