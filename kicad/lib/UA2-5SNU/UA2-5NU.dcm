@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP UA2-5NU
-D KEMET, UA2, Relays, Signal, 5 V, 220 V, 250 VAC, 1 A, 100 mOhms, 1 GOhms, 10.6mm, 5.7mm, 8mm
-K
-F https://content.kemet.com/datasheets/KEM_R7004_UA2_UB2.pdf
-$ENDCMP
-#
-#End Doc Library
