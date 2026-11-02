@@ -10,3 +10,20 @@
 ![SDR_PreAmp_Filter](SDR_PreAmp_Filter_back.png)
 
 
+
+LPF-FILTERAUSWAHL - U1 / U2 (74CBT3251)
+
+BAND_2  BAND_1  BAND_0  EINGANG  FILTER
+  S2      S1      S0
+---------------------------------------
+   0       0       0      I0     16-30 MHz
+   0       0       1      I1      8-16 MHz
+   0       1       0      I2      4-8 MHz
+   0       1       1      I3      2-4 MHz
+   1       0       0      I4      1-2 MHz
+   1       0       1      I5      GND
+   1       1       0      I6      GND
+   1       1       1      I7      GND
+---------------------------------------
+0 = LOW, 1 = HIGH
+OE = GND (dauerhaft aktiviert)
