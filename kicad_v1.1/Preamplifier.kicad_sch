@@ -1533,20 +1533,6 @@
 		)
 		(uuid "4ecd3f6e-4f7f-4780-bc1f-b44ab02df89c")
 	)
-	(text "		WITH PREAMP         WITHOUT PREAMP\n\nR12     no fit              1k\nR1      47                  0 ohm link\nR11     220                 0 ohm link\nC5      22p                 no fit               \nU6      fit                 no fit"
-		(exclude_from_sim no)
-		(at 12.7 52.07 0)
-		(effects
-			(font
-				(face "FreeMono")
-				(size 3 3)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "914da35f-a8f0-4f0d-8ce8-22f1f27191ad")
-	)
 	(text "R1, R11  determine gain\n220/47 = 5x gain\n20*log10(220/47) = 13dB gain"
 		(exclude_from_sim no)
 		(at 204.47 81.28 0)
@@ -1557,6 +1543,50 @@
 			(justify left bottom)
 		)
 		(uuid "973075f8-90ab-4d9a-8d8b-77098488f904")
+	)
+	(text_box "		WITH PREAMP         WITHOUT PREAMP\n\nR12     no fit              1k\nR1      47                  0 ohm link\nR11     220                 0 ohm link\nC5      22p                 no fit               \nU6      fit                 no fit"
+		(exclude_from_sim no)
+		(at 16.002 16.51 0)
+		(size 93.472 32.766)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "41f039d6-6a3d-4fd8-b86e-f9d57ff7b056")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 39.8526 132.3086 0)
+		(size 0.0254 0.0254)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8c789b04-571a-4223-8e02-8f26cccdbfab")
 	)
 	(junction
 		(at 177.8 74.93)

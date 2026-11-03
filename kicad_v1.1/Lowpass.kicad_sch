@@ -1500,7 +1500,9 @@
 		)
 		(effects
 			(font
+				(face "Courier New")
 				(size 1.778 1.778)
+				(bold yes)
 				(color 0 0 132 1)
 			)
 			(justify left top)
