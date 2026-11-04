@@ -1,3 +1,5 @@
+## V2.0 Filter vor den PRE-AMP gesetzt
+
 # Kompakter LNA mit integriertem 5-stufigem Tiefpassfilter 
 **basierend auf dem LTC6226xS8, mit integriertem 5-fach-Tiefpassfilter für den Bereich 1–30 MHz.**
 **Die Filterumschaltung erfolgt mit drei Steuerleitungen und zwei 74CBT3251-Multiplexer. Ausgangspegel ca. 10–12 dBm – für SDRs und andere Empfänger.**
