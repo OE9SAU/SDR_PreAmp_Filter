@@ -1,4 +1,4 @@
-## V2.0 Filter vor den PRE-AMP gesetzt
+## V2.0 Signalrichtung vertauscht, LPF-Filter ist jetzt vor dem PRE-AMP
 
 # Kompakter LNA mit integriertem 5-stufigem Tiefpassfilter 
 **basierend auf dem LTC6226xS8, mit integriertem 5-fach-Tiefpassfilter für den Bereich 1–30 MHz.**
