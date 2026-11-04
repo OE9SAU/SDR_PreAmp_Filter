@@ -3199,13 +3199,13 @@
 		(embedded_fonts no)
 		(model "UA2-5NU.stp"
 			(offset
-				(xyz -5.619999801 -2.670000036 0.6100000051)
+				(xyz -3.62 1.83 0.61)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
