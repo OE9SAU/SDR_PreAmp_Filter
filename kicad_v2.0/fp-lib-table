@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "reciever")(type "KiCad")(uri "${KIPRJMOD}/reciever.pretty")(options "")(descr "Footprints for PI Pico HF Reciever"))
+  (lib (name "60312202114508")(type "KiCad")(uri "${KIPRJMOD}/lib/60312202114508")(options "")(descr ""))
+  (lib (name "60314202124525")(type "KiCad")(uri "${KIPRJMOD}/lib/60314202124525")(options "")(descr ""))
+  (lib (name "UA2-5SNU")(type "KiCad")(uri "${KIPRJMOD}/lib/UA2-5SNU")(options "")(descr ""))
+)
